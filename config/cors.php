@@ -15,13 +15,13 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie', 'login', 'logout', '*'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://supply-fe.vercel.app'],
 
-    'allowed_origins_patterns' => ['https://supply-fe.vercel.app'],
+    'allowed_origins_patterns' => ['*'],
 
     'allowed_headers' => ['*'],
 
