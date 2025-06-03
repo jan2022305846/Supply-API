@@ -21,7 +21,7 @@ return [
 
     'allowed_origins' => ['*'],
 
-    'allowed_origins_patterns' => ['supply-fe-janny-abu-abus-projects.vercel.app','supply-fe.vercel.app'],
+    'allowed_origins_patterns' => ['https://supply-fe.vercel.app'],
 
     'allowed_headers' => ['*'],
 
