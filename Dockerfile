@@ -14,7 +14,9 @@ RUN apt-get update && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     libzip-dev \
-    libpq-dev
+    libpq-dev \
+    openssl \
+    ca-certificates 
 
 # Install PHP extensions required by Laravel
 RUN docker-php-ext-install pdo pdo_mysql mbstring zip exif pcntl bcmath gd
